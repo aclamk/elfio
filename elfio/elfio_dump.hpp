@@ -608,7 +608,7 @@ class dump
                             << "        Name"
                             << std::endl;
                     }
-                    for ( Elf_Half i = 0; i < sym_no; ++i ) {
+                    for ( Elf_Xword i = 0; i < sym_no; ++i ) {
                         std::string   name;
                         Elf64_Addr    value   = 0;
                         Elf_Xword     size    = 0;
